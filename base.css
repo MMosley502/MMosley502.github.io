@@ -1,0 +1,41 @@
+body {
+    background-color:rgb(157, 185, 197);
+}
+
+ul {
+    background-color: cadetblue;
+    border-radius: 10px;
+    
+}
+
+#outer-list {
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    margin-left: 2%;
+    margin-right: 10%;
+    outline: auto;
+}
+
+nav { 
+    background-color:rgba(128, 0, 0, 0.507);
+}
+
+#nav-item {
+    /* background-color: rgba(46, 59, 113, 0.783); */
+    border-style: ridge;
+    border-color: aliceblue;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: larger;
+}
+
+#school-image {
+    size: 1%;
+    scale: 15%;
+    display: inline-block;
+    float: left;
+}
+
+#school-list {
+    display: inline-block;
+}
