@@ -9,30 +9,53 @@ ul {
 }
 
 #outer-list {
-    padding-top: 0.5%;
-    padding-bottom: 0.5%;
+    padding-top: 5px;
+    padding-bottom: 10px;
     margin-left: 2%;
     margin-right: 10%;
     outline: auto;
 }
 
+.inner-list-header {
+    margin-top: 3px;
+    /* width: 80%; */
+    /* float: left; */
+}
+.inner-list-year {
+    margin-top: 0px;
+    float: right;
+}
+.inner-list {
+    padding-left: 20px;
+    padding-right: 4px;
+    clear: right;
+}
+
 nav { 
     background-color:rgba(128, 0, 0, 0.507);
+    padding: 5px;
     display: flex;
+    border-radius: 3px;
 }
 
 #nav-item {
-    /* background-color: rgba(46, 59, 113, 0.783); */
+    background-color: rgba(210, 211, 214, 0.991); 
     border-style: ridge;
     border-color: aliceblue;
+    border-radius: 5px;
     margin-left: 10px;
     margin-right: 10px;
     font-size: larger;
+    padding: 5px;
+}
+
+#nav-item:hover {
+    background-color: rgb(231, 199, 141);
 }
 
 #school-image {
     size: 1%;
-    scale: 15%;
+    width: 50px;
     display: inline-block;
     float: left;
 }
