@@ -1,9 +1,9 @@
 body {
-    background-color:rgb(157, 185, 197);
+    background-color:rgb(220, 235, 248);
 }
 
 ul {
-    background-color: cadetblue;
+    background-color: rgb(225, 244, 246);
     border-radius: 10px;
     
 }
@@ -17,13 +17,14 @@ ul {
 }
 
 .inner-list-header {
-    margin-top: 3px;
-    /* width: 80%; */
-    /* float: left; */
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 .inner-list-year {
     margin-top: 0px;
+    margin-bottom: 10px;
     float: right;
+    margin-right: 5px;;
 }
 .inner-list {
     padding-left: 20px;
@@ -32,19 +33,20 @@ ul {
 }
 
 nav { 
-    background-color:rgba(128, 0, 0, 0.507);
-    padding: 5px;
+    background-color:rgba(185, 133, 133, 0.74);
+    padding: 7px;
     display: flex;
-    border-radius: 3px;
+    border-radius: 7px;
+    padding-left: 20px;
 }
 
 #nav-item {
     background-color: rgba(210, 211, 214, 0.991); 
-    border-style: ridge;
+    border-style:outset;
     border-color: aliceblue;
-    border-radius: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
     font-size: larger;
     padding: 5px;
 }
