@@ -2,97 +2,175 @@
     <head>
         <title>Education</title>
         <link rel="stylesheet" href="base.css">
+        <!-- <script src="collapse.js"></script> -->
 
     </head>
+    <body>
+    
 
-    <header>
-        <!---  Add navigation here -->
-        <nav>
-            <a id="nav-item" href="index.html">Resume</a>
-            <a id="nav-item" href="education.html">Education</a>
-            <a id="nav-item" href="experience.html">Experience</a>
-        </nav>  
+        <header>
+            <!---  Add navigation here -->
+            <nav>
+                <a id="nav-item" href="index.html">Resume</a>
+                <a id="nav-item" href="education.html">Education</a>
+                <a id="nav-item" href="experience.html">Experience</a>
+            </nav>  
 
-    </header>
-
-
-
-    <section>
-        <h2 id="#degrees">Degrees</h2>
-        <!--- Add dates here. Special formatting?-->
-        <ul id="outer-list">
-            <li>
-                <h3 class="inner-list-title">Umass Lowell</h3>
-                <!-- <img id="school-image" src="2025_UML_Logo_RGB_tcm18-403382.png" alt="UMass Lowell school logo"> -->
-                <ul id="school-list">
-                    <li>Master's in Computer Science</li>
-                    <li>Classes's of note</li>
-                    <li></li>
-                </ul>
-                <!-- Add collapsable of classes -->
-            </li>
-            <li>
-                <h3 class="inner-list-title">Rennsselaer Polytechnic Institute</h3>
-                <!-- <img id="school-image" src="Rensselear_poly_inst_seal.png" alt="Rensselaer Polytechnic school seal"> -->
-                <ul id="school-list">
-                    <li>Bachelor's of Computer Science and Cognitive Science</li>
-                    <li>Classes of note</li>
-                    <li>Research with Adaptive Cognition laboratory</li>
-                </ul>
-                <!-- Add collapsable of classes -->
-            </li>
-            <li>
-                <h3 class="inner-list-title">Nashua Community College</h3>
-                <!-- <img id="school-image" src="logo_white.webp" alt="Nashua Community College logo"> -->
-                <ul id="school-list">
-                    <li>Associates of Software Development</li>
-                    <li>Classes of note</li>
-                    <li></li>
-                </ul>
-                <!-- Add collapsable of classes -->
-            </li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>Certifications</h2>
-        <ul>
-            <li>
-                <h3 class="inner-list-title">Security+ Certification</h3>
-                <a href="https://www.comptia.org/en-us/certifications/security/#overview" target="_blank" class="click-link"> 
-                    <img src="images/Security+-jpg.jpg" alt="Security Plus certification badge" class="click-image">
-                </a>
-            </li>
-            <li>
-                <h3 class="inner-list-title">Amazon Web Services Associate Solutions Architect</h3>
-                <a href="https://www.comptia.org/en-us/certifications/security/#overview" target="_blank" class="click-link"> 
-                    <img src="images/AWS cert.png" alt="Amazon Web Services Associate Solutions Architect badge" class="click-image">
-                </a>
-            </li>
-        </ul>
-
-        <!-- Link to more certs -->
-
-    </section>
-
-    <section>
-        <h2>Projects</h2>
-        <ul id="outer-list">
-            <li>
-                <h3 class="inner-list-title">Project 1</h3>
-                <a href="Link 1">Embed here</a>
-            </li>
-            <li>
-                <h3 class="inner-list-title">Project 2</h3>
-                <a href="Link 2">Embed here</a>
-            </li>
-            <li>
-                <h3 class="inner-list-title">Project 3</h3>
-                <a href="Link 3">Embed here</a>
-            </li>
-        </ul>
-    </section>
+        </header>
 
 
 
+        <section>
+            <h2 id="#degrees">Degrees</h2>
+            <!--- Add dates here. Special formatting?-->
+            <ul id="outer-list">
+                <li>
+                    <h3 class="inner-list-title">Umass Lowell</h3>
+                    <!-- <img id="school-image" src="2025_UML_Logo_RGB_tcm18-403382.png" alt="UMass Lowell school logo"> -->
+                    <ul id="school-list">
+                        <li>Master's in Computer Science</li>
+                        <li>Classes's of note
+                             <button type="button" class="collapsible">Open Collapsible</button>
+                            <div class="content">
+                            <p>Lorem ipsum...</p>
+                            </div>
+                        </li>
+                    </ul>
+                    
+                    <!-- Add collapsable of classes -->
+                </li>
+                <li>
+                    <h3 class="inner-list-title">Rennsselaer Polytechnic Institute</h3>
+                    <!-- <img id="school-image" src="Rensselear_poly_inst_seal.png" alt="Rensselaer Polytechnic school seal"> -->
+                    <ul id="school-list">
+                        <li>Bachelor's of Computer Science and Cognitive Science</li>
+                        <li>Classes of note
+                            <button type="button" class="collapsible">Open Collapsible</button>
+                            <div class="content">
+                            <p>CSCI 2200 UG FOUNDATIONS OF COMPUTER SCI</p>
+                            <p>CSCI 2500 UG COMPUTER ORGANIZATION </p>
+                            <p>IHSS 1140 UG MINDS AND MACHINES </p>
+                            <p>MATH 1020 UG CALCULUS II</p>
+
+                            <p>BIOL 1010 UG INTRODUCTION TO BIOLOGY </p>
+                            <p>BIOL 1015 UG INTRODUCTION TO BIOLOGY LAB </p>
+                            <p>CSCI 2300 UG INTRODUCTION TO ALGORITHMS  </p>
+                            <p>CSCI 2600 UG PRINCIPLES OF SOFTWARE  </p>
+                            <p>MATH 2010 UG MULTIVAR CALC & MATRIX ALGEBRA </p> 
+
+                            <p>COGS 2120 UG INTRO TO COGNITIVE SCIENCE </p>
+                            <p>CSCI 4430 UG PROGRAMMING LANGUAGES  </p>
+                            <p>MATP 4600 UG PROB THEORY & APPLICATIONS </p>
+                            <p>PHIL 2140 UG INTRODUCTION TO LOGIC </p>
+
+                            <p>COGS 2340 UG INTRODUCTION TO LINGUISTICS </p>
+                            <p>CSCI 4150 UG INTRO TO ARTIFICIAL INTELLIG  </p>
+                            <p>CSCI 4210 UG OPERATING SYSTEMS  </p>
+                            <p>PHIL 4140 UG INTERMEDIATE LOGIC </p>
+                            <p>PSYC 2310 UG RESEARCH METHODS & STATS I  </p>
+
+                            <p>COGS 4941 UG COMPTR MODELS HUMAN LEARNING  </p>
+                            <p>COGS 4961 UG HUMAN & MACHINE LEARNING </p>
+                            <p>CSCI 4440 UG SOFTWARE DESIGN & DOCUMENTATION  </p>
+                            <p>PSYC 4370 UG COGNITIVE PSYCHOLOGY </p>
+
+                            <p>COGS 4941 UG COMP MODELS OF LEARNING  </p>
+                            <p>COGS 4960 UG SOCIAL COMPUTING  </p>
+                            <p>PHIL 4130 UG PHILOSOPHY OF SCIENCE </p>
+                            <p>PHIL 4420 UG COMPUTABILITY AND LOGIC </p>
+                            <p>PSYC 4410 UG SENSATION AND PERCEPTION  </p>
+
+                            </div>
+                        </li>
+                        <li>Research with Adaptive Cognition laboratory</li>
+                    </ul>
+                    <!-- Add collapsable of classes -->
+                </li>
+                <li>
+                    <h3 class="inner-list-title">Nashua Community College</h3>
+                    <!-- <img id="school-image" src="logo_white.webp" alt="Nashua Community College logo"> -->
+                    <ul id="school-list">
+                        <li>Associates of Software Development</li>
+                        <li>Classes of note
+                            <button type="button" class="collapsible">Open Collapsible</button>
+                            <div class="content">
+                            <p>CSCI 116N NCC Networking Basics</p>
+                            <p>CSCI 175N NCC Programming Using C++</p>
+                            <p>CSCI 170N NCC Linux Essentials</p>
+                            <p>CSCI 102N NCC Website Development I</p>
+                            <p>CSCI 106N NCC Intro to Software & Web Dev</p>
+                            <p>MATH 210N NCC Calculus I</p>
+                            <p>CHEM 130N NCC General Chemistry I</p>
+                            <p>CSCI 103N NCC Website Development II</p>
+                            <p>MATH 211N NCC Calculus II</p>
+                            <p>CSCI 207N NCC Database Design & Management</p>
+                            <p>CSCI 230N NCC Object Oriented Prog Using C++</p>
+                            <p>PHYS 230N NCC Calculus Based Physics I</p>
+                            <p>SOCI 101N NCC Introduction to Sociology</p>
+                            </div>
+                        </li>
+                        <li></li>
+                    </ul>
+                    <!-- Add collapsable of classes -->
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Certifications</h2>
+            <ul id="outer-list">
+                <li>
+                    <h3 class="inner-list-title">Security+ Certification</h3>
+                    <a href="https://www.comptia.org/en-us/certifications/security/#overview" target="_blank" class="click-link"> 
+                        <img src="images/Security+-jpg.jpg" alt="Security Plus certification badge" class="click-image">
+                    </a>
+                </li>
+                <li>
+                    <h3 class="inner-list-title">Amazon Web Services Associate Solutions Architect</h3>
+                    <a href="https://www.comptia.org/en-us/certifications/security/#overview" target="_blank" class="click-link"> 
+                        <img src="images/AWS cert.png" alt="Amazon Web Services Associate Solutions Architect badge" class="click-image">
+                    </a>
+                </li>
+            </ul>
+
+            <!-- Link to more certs -->
+
+        </section>
+
+        <section>
+            <h2>Projects</h2>
+            <ul id="outer-list">
+                <li>
+                    <h3 class="inner-list-title">Project 1</h3>
+                    <a href="Link 1">Embed here</a>
+                </li>
+                <li>
+                    <h3 class="inner-list-title">Project 2</h3>
+                    <a href="Link 2">Embed here</a>
+                </li>
+                <li>
+                    <h3 class="inner-list-title">Project 3</h3>
+                    <a href="Link 3">Embed here</a>
+                </li>
+            </ul>
+        </section>
+
+        <script>
+        //  Source: https://www.w3schools.com/howto/howto_js_collapsible.asp
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight){
+            content.style.maxHeight = null;
+            } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+            } 
+            });
+        }
+        </script>
+    </body>
 </html>

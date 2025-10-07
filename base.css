@@ -84,3 +84,33 @@ nav {
 .click-link:hover {
     transform: rotateZ('180');
 } */
+
+
+
+/* source https://www.w3schools.com/howto/howto_js_collapsible.asp */
+.collapsible {
+    background-color: #eee;
+    border-radius: 5px;;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.active, .collapsible:hover {
+    background-color: #ccc;
+}
+  
+ 
+.content {
+    padding: 0 18px;
+    background-color: #b4c0ef;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
