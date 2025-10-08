@@ -12,7 +12,7 @@
             <!---  Add navigation here -->
             <nav>
                 <a id="nav-item" href="index.html">Resume</a>
-                <a id="nav-item" href="Eucation.html">Education</a>
+                <a id="nav-item" href="Education.html">Education</a>
                 <a id="nav-item" href="Experience.html">Experience</a>
             </nav>  
 
@@ -33,7 +33,9 @@
                     <!-- Add collapsable of classes -->
                 </li>
                 <li>
-                    <h3 class="inner-list-title">Rennsselaer Polytechnic Institute</h3>
+                    <h3 class="inner-list-title">Rennsselaer Polytechnic Institute
+                        <p class="inner-list-year">2023</p>
+                    </h3>
                     <!-- <img id="school-image" src="Rensselear_poly_inst_seal.png" alt="Rensselaer Polytechnic school seal"> -->
                     <ul id="school-list">
                         <li>Bachelor's of Computer Science and Cognitive Science</li>
@@ -80,7 +82,9 @@
                     <!-- Add collapsable of classes -->
                 </li>
                 <li>
-                    <h3 class="inner-list-title">Nashua Community College</h3>
+                    <h3 class="inner-list-title">Nashua Community College
+                        <p class="inner-list-year">2020</p>
+                    </h3>
                     <!-- <img id="school-image" src="logo_white.webp" alt="Nashua Community College logo"> -->
                     <ul id="school-list">
                         <li>Associates of Software Development</li>
@@ -112,17 +116,20 @@
         <section>
             <h2>Certifications</h2>
             <ul id="outer-list">
-                <li>
+                <li class="cert">
                     <h3 class="inner-list-title">Security+ Certification</h3>
+                    <div class="cert-div">
                     <a href="https://www.comptia.org/en-us/certifications/security/#overview" target="_blank" class="click-link"> 
                         <img src="images/Security+-jpg.jpg" alt="Security Plus certification badge" class="click-image">
                     </a>
                 </li>
-                <li>
+                <li class="cert">
                     <h3 class="inner-list-title">Amazon Web Services Associate Solutions Architect</h3>
+                    <div class="cert-div">
                     <a href="https://www.comptia.org/en-us/certifications/security/#overview" target="_blank" class="click-link"> 
                         <img src="images/AWS cert.png" alt="Amazon Web Services Associate Solutions Architect badge" class="click-image">
                     </a>
+                    </div>
                 </li>
             </ul>
 
@@ -133,17 +140,13 @@
         <section>
             <h2>Projects</h2>
             <ul id="outer-list">
-                <li>
-                    <h3 class="inner-list-title">Project 1</h3>
+                <li class="project-item">
+                    <h3 class="inner-list-header">Project 1</h3>
                     <a href="https://github.com/MMosley502/alexandria">Alexandria Book Trading app</a>
-                </li>
-                <li>
-                    <h3 class="inner-list-title">Project 2</h3>
-                    <a href="Link 2">Embed here</a>
-                </li>
-                <li>
-                    <h3 class="inner-list-title">Project 3</h3>
-                    <a href="Link 3">Embed here</a>
+                    <ul class="inner-list">
+                        <li>Peer-to-peer book trading service for college students</li>
+                        <li>Made with Java Springboot, Cosmos DB, with a HTML/CSS/Javascript frontend</li>
+                    </ul>
                 </li>
             </ul>
         </section>

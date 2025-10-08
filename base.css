@@ -62,7 +62,7 @@ nav {
     background-color: rgb(231, 199, 141);
 }
 
- .project-item {
+.project-item {
     padding: 7px;
     margin-right: 10px;
     border-radius: 5px;
@@ -76,6 +76,37 @@ nav {
     color: white;
 }
 
+.cert {
+    background-color: rgb(222, 210, 185);
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.cert:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+ 
+.cert>.cert-div {
+    transition: transform 1s ease-in;
+}
+.cert:hover>.cert-div {
+    transform: translateX(47%);
+    /* display: flex;
+    justify-content: center;
+    text-align: center; */
+
+} 
+
+.click-image {
+    display:block;
+    width: 60px;
+    transition: transform 1s ease-in-out;
+}
+
+.click-image:hover {
+    transform: rotateY(180deg) rotateX(180deg);
+}
+
 #school-image {
     size: 1%;
     width: 50px;
@@ -87,24 +118,8 @@ nav {
     display: inline-block;
 }
 
-.click-image {
-    width: 60px;
-    transition: transform 1s ease-in-out;
-}
-
-.click-image:hover {
-    transform: rotateY(180deg) rotateX(180deg);
-}
 
 
-/* 
-.click-link {
-    transition: transform 0.5s;
-}
-
-.click-link:hover {
-    transform: rotateZ('180');
-} */
 
 
 
